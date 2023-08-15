@@ -1,0 +1,489 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+.png{
+    right: 25px;
+    bottom: 25px;
+    position: fixed;
+}
+.navigationbar{
+    border: px solid;
+    position: fixed;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(0,0,0,.12);;
+}
+.toplogo {
+    border: px solid;
+    height: 100%;
+    width: 20%;
+}
+.toplogo img{
+    margin-left: 63px;
+    margin-top: -1px;
+    height: 100px;
+    width: 100px;
+}
+.rightsidebar{
+    border: px solid red;
+    height: 50px;
+    width: 27%;
+    margin-left: 1025px; 
+    margin-top: -80px;  
+    font-size: 25px;
+    padding: 10px;
+}
+.rightsidebar ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.video1{
+    border: px solid;
+    height: 836px;
+    width: 100%;
+}
+.video1 video{
+    height: 100;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.textonvideo{
+    border: PX solid red;
+    height: 100px;
+    width: 90%;
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    /* margin-top: -710px; */
+    margin-top: -510px;
+    margin-left: 70px;
+}
+.textonvideo2{
+    border: px solid red;
+    height: 100px;
+    width: 90%;
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.clickredbar{
+    border: px solid black;
+    background-color: #FF5672;
+    height: 54px;
+    width: 13%;
+    margin-left: 660px;
+    /* margin-top: 140px; */
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 24px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+}
+.click{
+    border: px solid red;
+    height: 40px;
+    width: 30%;
+    /* margin-top: 140px; */
+}
+.click img{
+    margin-left: 680px;
+    margin-top: 80px;
+}
+h3{
+    border: px solid red;
+    height: 30px;
+    width: 30%;
+    margin-left: 730px;
+    margin-top: -33px;
+}
+.box2{
+    border: 1px solid rgb(245, 245, 245);
+    height: 2650px;
+    width: 100%;
+    /* margin-top: 465px; */
+    margin-top: 290px;
+    background-color: rgb(245, 245, 245);
+}
+.missionandvision{
+    border: px solid;
+    height: 50px;
+    width: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.missionandvision1{
+    border: px solid;
+    height: 30px;
+    width: 34%;
+    font-family: serif;
+    font-size: 23px;
+    margin-left: 530px;
+    margin-top: 50px;
+}
+.missionandvision2{
+    border: px solid;
+    height: 30px;
+    width: 20%;
+    font-family: serif;
+    font-size: 23px;
+    margin-left: 640px;
+    margin-top: 0px;
+}
+.missionandvision3{
+    border: px solid;
+    height: 30px;
+    width: 40%;
+    font-family: serif;
+    font-size: 23px;
+    margin-left: 460px;
+    margin-top: 0px;
+}
+.missionandvision4{
+    border: px solid;
+    height: 30px;
+    width: 40%;
+    font-family: serif;
+    font-size: 23px;
+    margin-left: 675px;
+    margin-top: 0px;
+}
+.bar1{
+    border: px solid;
+    height: 3px;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 80px;
+    background-color: rgb(199,123,244);
+}
+.key{
+    border: px solid;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 40px;   
+}
+.keyafter{
+    border: px solid;
+    height: 650px;
+    /* height: 800px; */
+    width: 100%;
+    margin-top: 60px;
+}
+.low{
+    border: px solid red;
+    height: 400px;
+    width: 20%;
+    margin-left: 40px;
+}
+.lowimg{
+    border: px solid;
+    height: 100px;
+    width: 35%;
+    margin-left: 110px;
+
+}
+.lowtext{
+    border: px solid;
+    height: 30px;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.lowheading{
+    border: px solid;
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.MAINTAINANCE{
+    border: px solid red;
+    height: 280px;
+    width: 23%;
+    margin-left: 400px;
+    margin-top: -400px;
+}
+.MAINTAINANCEimg{
+    border: px solid;
+    height: 100px;
+    width: 35%;
+    margin-left: 110px;
+}
+.MAINTAINANCEtext{
+    border: px solid;
+    height: 30px;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.MAINTAINANCEheading{
+    border: px solid;
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.BASICSKILLSET{
+    border: px solid red;
+    height: 280px;
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -280px;
+}
+.BASICSKILLSETimg{
+    border: px solid;
+    height: 100px;
+    width: 35%;
+    margin-left: 110px;
+}
+.BASICSKILLSETtext{
+    border: px solid;
+    height: 30px;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 70px;
+    margin-top: 20px;
+}
+.BASICSKILLSETheading{
+    border: px solid;
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.IN-HOUSEPOS{
+    border: px solid red;
+    height: 400px;
+    width: 23%;
+    margin-left: 1150px;
+    margin-top: -280px;
+}
+.IN-HOUSEPOSimg{
+    border: px solid;
+    height: 100px;
+    width: 35%;
+    margin-left: 110px;
+}
+.IN-HOUSEPOStext{
+    border: px solid;
+    height: 30px;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 90px;
+    margin-top: 20px;
+}
+.IN-HOUSEPOSheaing{
+    border: px solid;
+    height: 90px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.GOODPROFITMARGIN{
+    border: px solid red;
+    height: 300px;
+    width: 23%;
+    margin-left: 400px;
+    margin-top: -80px;
+    padding-right: 10px;
+}
+.GOODPROFITMARGINimg{
+    border: px solid;
+    height: 100px;
+    width: 29%;
+    margin-left: 110px;
+}
+.GOODPROFITMARGINtext{
+    border: px solid;
+    height: 39px;
+    width: 103%;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.GOODPROFITMARGINheading{
+    border: px solid;
+    height: 90px;
+    width: 103%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.PANDEMICFRIENDLY{
+    border: px solid red;
+    height: 302px;
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -299px;
+    padding-right: 10px;
+}
+.PANDEMICFRIENDLYimg{
+    border: px solid;
+    height: 100px;
+    width: 29%;
+    margin-left: 110px;
+}
+.PANDEMICFRIENDLYtext{
+    border: px solid;
+    height: 39px;
+    width: 103%;
+    font-size: 24px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.PANDEMICFRIENDLYheading{
+    border: px solid;
+    height: 110px;
+    width: 110%;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.bar2{
+    border: px solid;
+    height: 4px;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: rgb(199,123,244);
+}
+.ApplyHere{
+    border: px solid;
+    height: 40px;
+    width: 85%;
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.Requestforinitialmeeting{
+    border: px solid;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    padding-right: 30px;
+    margin-top: 25px;
+}
+.backgroudimg{
+    border: px solid ;
+    height: 755px;
+    width: 100%;
+}
+.backgroudimg img{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.applynow1{
+    border: px solid;
+    height: 50px;
+    width: 13%;
+    background-color: #FF5672;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 670px;
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-top: 12px;
+    border-radius: 20px;
+}
+.bar3{
+    border: px solid;
+    height: 4px;
+    width: 85%;
+    background-color: rgb(199,123,244);
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.FranchiseQueries{
+    border: px solid;
+    height: 40px;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.social{
+    border: px solid;
+    height: 50px;
+    width: 60%;
+    margin-left: 350px;
+    margin-top: 70px;
+}
+.pdf{
+    border: px solid;
+    height: 50px;
+    width: 4%;
+}
+.pdftext{
+    border: px solid;
+    height: 30px;
+    width: 20%;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+.phone{
+    border: px solid;
+    height: 40px;
+    width: 4%;
+    margin-left: 300px;
+    margin-top: -40px;
+}
+.phonetext{
+    border: px solid;
+    height: 30px;
+    width: 20%;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: -32px;
+}
+.email{
+    border: px solid;
+    height: 30px;
+    width: 5%;
+    margin-left: 550px;
+    margin-top: -33px;
+}
+.emailtext{
+    border: px solid;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 603px;
+    margin-top: -25px;
+}
+.copyright{
+    border: px solid;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 13px;
+    background-color: rgb(199,123,244);
+}

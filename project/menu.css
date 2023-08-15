@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.png{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+.container{
+    border: px solid red;
+    height: 755px;
+    width: 100%;
+}
+.bar1{
+    border: px solid;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(0,0,0,.12);  
+    position: fixed;
+}
+.brandlogo{
+    border: 1px;
+    height: 100%;
+    width: 20%;
+}
+.brandlogo img{
+    margin-left: 63px;
+    margin-top: -1px;
+    height: 100px;
+    width: 100px;
+}
+.navigation{
+    border: px solid red;
+    height: 50px;
+    width: 27%;
+    margin-left: 1025px; 
+    margin-top: -80px;  
+    font-size: 25px;
+    padding: 10px;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    border: px solid red;
+    height: 756px;
+    width: 100%;
+}
+.banner img{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.burger{
+   border: px solid;
+    height: 250px;
+    width: 13%;
+    margin-top: -605px;
+    margin-left: 260px;
+}
+.burger:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+.burgerimg img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.burgerText{
+    border: px solid;
+    height: 90px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    padding-left: 4px;
+    margin-right: 20px;
+    margin-top: -16px;
+}
+.add1{
+    border: px solid ;
+    height: 50px;
+    width: 30%;
+    margin-top: -30px;
+    margin-left: 75px;
+    padding-left: 10px;
+}
+.fries{
+    border: px solid;
+    height: 250px;
+    width: 23%;
+    margin-top: -250px;
+    margin-left: 590px;
+}
+.fries:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+.friesimg{
+    padding-left: 100px;
+}
+.add2{
+    border: px solid ;
+    height: 50px;
+    width: 17%;
+    margin-top: -40px;
+    margin-left: 130px;
+    padding-left: 10px;
+}
+.friesText{
+    border: px solid;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    /* padding-left: 10px; */
+    padding-right: 100px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.MainCourse{
+    border: px solid;
+    height: 250px;
+    width: 33%;
+    margin-top: -250px;
+    margin-left: 990px;
+}
+.MainCourse:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+.MainCourseimg{
+      padding-left: 100px;
+      margin-top: -10;
+}
+.MainCourseimgText{
+    border: px solid;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    padding-left: 20px;
+    /* padding-right: 200px; */
+    margin-right: 20px;
+    margin-top: -12px;
+}
+.add3{
+    border: px solid ;
+    height: 50px;
+    width: 17%;
+    margin-top: -44px;
+    margin-left: 130px;
+    padding-left: 10px;
+}
+.drinks{
+    border: px solid;
+    height: 250px;
+    width: 18%;
+    margin-top: 50px;
+    margin-left: 200px;  
+}
+.drinks:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+.drinksimg{
+    padding-left: 116px;
+    margin-top: 20px;
+}
+.drinksimgText{
+    border: px solid;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    padding-left: 80px;
+    /* padding-right: 200px; */
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.add4{
+    border: px solid ;
+    height: 50px;
+    width: 17%;
+    margin-top: -40px;
+    margin-left: 130px;
+    padding-left: 15px;
+}
+
+.wraps{
+    border: px solid;
+    height: 250px;
+    width: 23%;
+    margin-top: -250px;
+    margin-left: 590px;
+}
+.wraps:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+.wrapsimg{
+    padding-left: 128px;
+    padding-top: 10px;
+}
+.wrapsimgtext{
+    border: px solid;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    padding-left: 86px;
+    padding-top: 23px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.add5{
+    border: px solid ;
+    height: 50px;
+    width: 17%;
+    margin-top: -35px;
+    margin-left: 130px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.Desserts{
+    border: px solid;
+    height: 250px;
+    width: 23%;
+    margin-top: -250px;
+    margin-left: 990px;
+}
+.Desserts:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+.Dessertsimg{
+    padding-left: 100px;
+    padding-top: 33px;
+}
+.Dessertsimgtext{
+    border: px solid;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    padding-left: 56px;
+    padding-top: 27px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.add6{
+    border: px solid ;
+    height: 50px;
+    width: 17%;
+    margin-top: -30px;
+    margin-left: 130px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.lastbar{
+    border: px solid red;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -10px;
+    background-color: rgb(208, 117, 223 );
+}
